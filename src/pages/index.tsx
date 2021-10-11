@@ -1,5 +1,5 @@
 import { Flex, Heading, VStack, Text, Image, Box, HStack,SimpleGrid, Divider, useBreakpointValue, Wrap } from "@chakra-ui/react";
-
+import Head from 'next/head';
 
 import { Header } from "../components/header";
 import { Carousel } from "../components/Carousel";
@@ -13,7 +13,11 @@ export default function Home() {
     lg: true
   })
   return (
-    <Flex minHeight="100vh" direction="column" align="center">
+    <>
+      <Head>
+        <title>worldtrip | Home</title>
+      </Head>
+      <Flex minHeight="100vh" direction="column" align="center">
       <Header />
       <Flex
         h="335"
@@ -62,5 +66,6 @@ export default function Home() {
       <Carousel />
 
     </Flex>
+    </>
   )
 }

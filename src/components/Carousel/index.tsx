@@ -26,13 +26,13 @@ export function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Slider bg="Europe.png" heading="Europa" text="O mais antigo dos continentes"/>
+          <Slider bg="Europe.png" heading="Europa" text="O mais antigo dos continentes" href="europa"/>
         </SwiperSlide>
         <SwiperSlide>
-          <Slider bg="Africa.jpg" heading="África" text="Conheça a história desse enorme continente"/>
+          <Slider bg="Africa.jpg" heading="África" text="Conheça a história desse enorme continente" href="africa"/>
         </SwiperSlide>
         <SwiperSlide>
-          <Slider bg="Asia.jpg" heading="Ásia" text="Um local cheio de cultura"/>
+          <Slider bg="Asia.jpg" heading="Ásia" text="Um local cheio de cultura" href="asia"/>
    
         </SwiperSlide>
       </Swiper>

@@ -8,7 +8,7 @@ export function Header() {
       align="center"
       justifyContent="center"
     >
-      <Image src="Logo.png" alt="Logo"/>
+      <Image src="/Logo.png" alt="Logo" />
     </Flex>
   )
 }
