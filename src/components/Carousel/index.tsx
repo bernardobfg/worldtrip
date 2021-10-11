@@ -13,7 +13,7 @@ SwiperCore.use([Pagination, Navigation]);
 
 export function Carousel() {
   return (
-    <Box w="1000px" mb="40px">
+    <Box w={["90vw","90vw", "90vw","1000px","1000px"]} mb="40px">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
