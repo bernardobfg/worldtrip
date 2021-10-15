@@ -76,9 +76,9 @@ export default function Continent({ continente }: ContinenteProps) {
                 </VStack>
                 <VStack>
                   <Heading fontSize={["24px", "48px"]} color="yellow">{continente.cities.length}</Heading>
-                  <Text fontSize={["18px", "24px"]}>
+                  <Text fontSize={["18px", "24px"]} whiteSpace="nowrap">
                     cidades +100
-                    <Tooltip closeOnClick={false} label="100 cidades mais visitadas do mundo">
+                    <Tooltip maxWidth={["180px", "300px"]} closeOnClick={false} label="100 cidades mais visitadas do mundo">
                       <span><Icon mb="3px" ml="10px" as={AiOutlineInfoCircle} /></span>
                     </Tooltip>
                   </Text>
