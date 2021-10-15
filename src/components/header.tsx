@@ -1,4 +1,5 @@
-import {Flex, Image} from "@chakra-ui/react";
+import Link from "next/link"
+import { Flex, Image } from "@chakra-ui/react";
 export function Header() {
   return (
     <Flex
@@ -8,7 +9,9 @@ export function Header() {
       align="center"
       justifyContent="center"
     >
-      <Image src="/Logo.png" alt="Logo" />
+      <Link href="/">
+        <Image src="/Logo.png" alt="Logo" cursor="pointer" />
+      </Link>
     </Flex>
   )
 }
