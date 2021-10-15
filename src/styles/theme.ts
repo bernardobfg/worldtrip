@@ -25,9 +25,14 @@ export const theme = extendTheme({
       ".swiper-button-next, .swiper-button-prev": {
         color: "yellow",
         transition: "filter .2s",
+        //fontSize: ["5px !important", "80px !important"],
         _hover: {
           filter: "brightness(0.8)"
         }
+        
+      },
+      ".swiper-button-next::after, .swiper-button-prev::after ": {
+        fontSize: ["20px", "40px"]
       },
       ".swiper-pagination-bullet-active": {
         background: "yellow",
