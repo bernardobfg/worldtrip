@@ -33,7 +33,12 @@ export function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Slider bg="Asia.jpg" heading="Ásia" text="Um local cheio de cultura" href="asia"/>
-   
+        </SwiperSlide>
+        <SwiperSlide>
+          <Slider bg="America.jpg" heading="América" text="Bem vindo ao novo mundo" href="america"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Slider bg="Oceania.jpg" heading="Oceania" text="O menor dos continentes" href="oceania"/>
         </SwiperSlide>
       </Swiper>
     </Box>
